@@ -20,3 +20,7 @@ This ingredients for this amazing pack are:
 - [Ruby on Rails](https://rubyonrails.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Devise](https://github.com/heartcombo/devise)
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
