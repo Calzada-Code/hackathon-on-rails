@@ -21,6 +21,20 @@ This ingredients for this amazing pack are:
 - [Bootstrap](https://getbootstrap.com/)
 - [Devise](https://github.com/heartcombo/devise)
 
+## Configuration for development and test environments
+
+> :bulb: Prerequisites: install git, Ruby 2.7.0, Node.js and PostgreSQL (>=9.5).
+
+```bash
+git clone https://github.com/Calzada-Code/hackathon-on-rails.git
+cd hackathon-on-rails
+gem install bundler --version=2.1.2
+bundle install
+bin/rails db:create
+bin/rails db:migrate
+bin/rails server
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/Calzada-Code/hackathon-on-rails.
